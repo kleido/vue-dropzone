@@ -368,6 +368,9 @@ export default {
     removeFile: function(file) {
       this.dropzone.removeFile(file);
     },
+    getAllFiles: function(){
+      return this.dropzone.files;
+    },
     getAcceptedFiles: function() {
       return this.dropzone.getAcceptedFiles();
     },
